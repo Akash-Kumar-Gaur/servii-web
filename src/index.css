@@ -1,0 +1,18 @@
+body {
+  /* margin: 15px; */
+  /* display: grid; */
+  /* grid: auto / 1em 1fr 1em; */
+  font-family: "Rubik";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+footer {
+  background: black;
+  color: white;
+  padding: 2rem;
+}

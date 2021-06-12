@@ -1,0 +1,58 @@
+.leftSide,
+.rightSide {
+  color: black;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.vision-card {
+  padding: 40px;
+}
+.Vision-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Rubik;
+  line-height: 28.44px;
+}
+.frame{
+   margin: 48px 10px;
+}
+.vision-text {
+  font-weight: 400;
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 32px;
+}
+.team-card {
+  width: 300px;
+  height: 420px;
+  border-radius: 12px;
+  padding: 32px;
+}
+.team-text {
+  font-weight: 400;
+  text-align: center;
+  line-height: 32px;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.about-servi-label {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.92px;
+}
+.our-team-label {
+  font-weight: 500;
+  font-size: 32px;
+}
+.vector {
+  width: 40px;
+  height: 25.78px;
+  margin-left: 10px;
+}

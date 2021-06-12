@@ -1,0 +1,47 @@
+.service-card {
+  width: 497px;
+  height: 300px;
+    margin: 20px 10px;
+}
+.service-body {
+  padding: 1.25rem;
+}
+.card-img-top {
+  border-radius: 12px !important;
+}
+.service-title {
+  font-weight: 700;
+  font-size: 22px;
+}
+.service-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.services-header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 35px;
+  margin-top: 4rem
+}
+.services-header-container .header,
+.services-header-container .contact-details {
+  flex-grow: 5;
+}
+.services-header-container .contact-details h6 {
+  display: inline;
+  font-size: 18px;
+}
+.services-header-container .contact-details .number-container {
+  display: inline;
+  font-size: 16px;
+  padding: 11px 28px;
+  border-radius: 30px;
+  border: 1px solid #f4f3f4;
+}
+.services-header-container .contact-details img {
+  margin: -4px 13px 0 0;
+  width: 14px;
+}

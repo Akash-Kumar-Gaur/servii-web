@@ -1,0 +1,50 @@
+/* body {
+  background-color: white;
+} */
+html {
+  scroll-behavior: smooth;
+}
+.main-container {
+  overflow-x: hidden;
+}
+.pages {
+  width: 83%;
+  margin: auto;
+  padding: 1rem;
+  color: #190a28;
+}
+.card {
+  margin: 20px 10px;
+  border-radius: 12px;
+}
+.header {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 37px;
+}
+.card-text:last-child {
+  line-height: 32px;
+  margin-bottom: 0;
+}
+.green-background {
+  position: relative;
+}
+.green-background::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 294px;
+  height: 20px;
+  background: #edffde;
+  z-index: -1;
+}
+.about-servi-label.green-background::before,
+.contact-us-container .green-background::before {
+  width: 200px;
+}
+a:hover{
+  background-color:none !important;
+}

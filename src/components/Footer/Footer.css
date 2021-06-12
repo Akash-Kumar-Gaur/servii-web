@@ -1,0 +1,62 @@
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 32px;
+}
+.icon {
+  height: 25px;
+  width: 19px;
+  cursor: pointer;
+}
+.fb-icon {
+  height: 28px;
+  width: 19px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.li-icon{
+height: 29px;
+  width: 19px;
+}
+.icon-group{
+  position: relative;
+  left: 60px;
+}
+#menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#menu li {
+  display: inline;
+  font-size: 13px;
+  padding: 0 20px;
+  border-left: solid 1px white;
+}
+
+#menu li:first-child {
+  border-left: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.copy-servi {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+.designed-text {
+  font-size: 12px;
+  font-weight: 400;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}

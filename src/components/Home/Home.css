@@ -1,0 +1,235 @@
+.home-container .section {
+  margin: 60px 0;
+}
+.home-container .section:nth-child(1) {
+  margin: 100px 0;
+}
+.home-container .section:nth-child(2) {
+  margin: 130px 0;
+}
+.home-container .section:nth-child(4) {
+  margin: 150px 0;
+}
+.home-container .section:nth-child(6) {
+  margin: 115px 0;
+}
+.home-container .section:nth-child(1) h1 {
+  font-size: 44px;
+  line-height: 57px;
+  margin-top: 8%;
+}
+.home-container .section:nth-child(1) p {
+  font-size: 16px;
+  line-height: 19px;
+}
+.home-container .section:nth-child(1) h4 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+}
+.home-container .section:nth-child(1) button {
+  border-radius: 30px;
+  margin: 32px 0;
+  padding: 12px 30px;
+  color: #190a28;
+  border-color: #190a28;
+  background-color: #fff;
+}
+.home-container .section:nth-child(1) .btn-dark {
+  background: #190a28;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffeac3;
+}
+.green-color {
+  color: #19be00;
+}
+.carousel {
+  width: 119%;
+  left: 42px;
+}
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+  border-radius: 20px 0px 0px 20px;
+  overflow: hidden;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  pointer-events: none;
+}
+.carousel-indicators {
+  bottom: -45px;
+}
+.carousel-indicators li {
+  background-color: #e8e5e8;
+  width: 20px;
+  height: 4px;
+  border-radius: 4px;
+}
+.carousel-indicators .active {
+  background-color: #263238;
+  width: 40px;
+}
+.home-container .section:nth-child(2) .card-text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.icon-container {
+  border: none;
+}
+.icon-image {
+  width: 49px;
+}
+.icon-container:nth-child(1) .icon-image {
+  margin: 14px 0 0 7px;
+}
+.icon-container:nth-child(2) .icon-image {
+  width: 32px;
+  margin: 14px 0 0 7px;
+}
+.icon-container:nth-child(3) .icon-image {
+  width: 49px;
+  margin: 14px 0 0 3px;
+}
+
+.icon-container:nth-child(4) .icon-image {
+  width: 50px;
+  margin: 15px 0 0 1px;
+}
+
+.icon-container:nth-child(5) .icon-image {
+  width: 47px;
+  margin: 16px 0 0 0;
+}
+.logo-image {
+  width: 90px;
+}
+
+.icon-container:nth-child(2) .logo-image {
+  width: 116px;
+}
+
+.icon-container:nth-child(3) .logo-image {
+  width: 115px;
+  margin: 16px 0;
+}
+
+.icon-container:nth-child(4) .logo-image {
+  width: 134px;
+}
+
+.icon-container:nth-child(5) .logo-image {
+  width: 135px;
+  margin: 11px 0;
+}
+
+.icon-container:nth-child(6) .logo-image {
+  width: 131px;
+}
+.icon-container:nth-child(7) .logo-image {
+  width: 132px;
+  margin-top: -22px;
+}
+
+.home-container .section:nth-child(4) .screeshot-image {
+  width: 90%;
+  position: relative;
+  /* top: -2%; */
+}
+.home-container .section:nth-child(4) .media {
+  border: 6px solid #f4f3f4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 35px 45px 35px 0;
+}
+.image-container {
+  width: 80px;
+  height: 80px;
+  margin: 5px auto;
+  text-align: center;
+
+  background-image: url(../../assets/images/HomeScreenImg/iconBg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.home-container .section:nth-child(4) .media:nth-child(1) .icon-image {
+  margin: 17px 0 0 -4px;
+}
+.home-container .section:nth-child(4) .media:nth-child(2) .icon-image,
+.home-container .section:nth-child(4) .media:nth-child(3) .icon-image {
+  width: 49px;
+  margin: 14px 0 0 5px;
+}
+
+.media-body {
+  margin: 15px 0;
+}
+.home-container .section:nth-child(5) button {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.recognisation-img-1 {
+  width: 70%;
+  margin: 56px 0 48px 0;
+}
+.recognisation-img-2 {
+  width: 53%;
+  margin: 44px 0;
+}
+.form-header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 0 0 35px;
+}
+.form-header-container .header,
+.form-header-container p {
+  flex-grow: 5;
+}
+.form-header-container p {
+  color: #ff6d00;
+}
+.form-header-container img {
+  width: 115px;
+}
+.form-header-container p img {
+  width: 17px;
+  margin: -4px 7px 0;
+}
+#form-section .form-group {
+  color: #190a2899;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.form-group input {
+  padding: 24px;
+  border-radius: 8px;
+}
+#form-section button {
+  background: #190a28;
+  padding: 14px 52px;
+  margin-top: 26px;
+}
+
+.illustration-image {
+  width: 77%;
+  margin-top: 11%;
+}
+.label-text {
+  font-weight: 800;
+  line-height: 52.14px;
+  font-size: 44px;
+}
+.label-text1 {
+  font-size: 24px;
+  line-height: 28.44px;
+  font-weight: 500;
+}
