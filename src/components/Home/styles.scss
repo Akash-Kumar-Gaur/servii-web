@@ -1,0 +1,125 @@
+.header1 {
+  font-size: 44px;
+  line-height: 57px;
+  margin-top: 8%;
+}
+
+.btnWrapper {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.sectionData {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-container {
+    p {
+      font-size: 20px !important;
+      text-align: left !important;
+      line-height: 24px !important;
+      color: #828282;
+    }
+    .card-text {
+      color: #000;
+      text-align: center !important;
+    }
+  }
+  .header1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 8%;
+  }
+
+  .btnWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .btn {
+      margin: 20px 0 !important;
+    }
+  }
+
+  .myCarousel {
+    padding: 0 !important;
+  }
+  .carousel {
+    left: 0 !important;
+    width: 100% !important;
+  }
+  .carousel-item {
+    img {
+      border-radius: 20px !important;
+    }
+  }
+
+  .media {
+    margin: 35px 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .label-text {
+      font-size: 32px !important;
+      color: #000 !important;
+      margin-bottom: 30px;
+    }
+
+    .label-text1 {
+      font-size: 26px !important;
+      word-break: break-word;
+      text-align: center !important;
+      color: #424242 !important;
+      line-height: 30px !important;
+    }
+
+    .image-container {
+      margin: 0 !important;
+    }
+
+    .media-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .form-header-container {
+    flex-direction: column;
+    .header {
+      margin-bottom: 30px !important;
+    }
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  .myFooter {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100px;
+    }
+
+    #menu {
+      margin-top: 25px;
+      flex-direction: column;
+      padding: 0;
+
+      li {
+        padding: 5px;
+        padding-left: 30px;
+        border-left: solid 1px white !important;
+      }
+    }
+    .footer-icons {
+      width: 80% !important;
+    }
+  }
+}

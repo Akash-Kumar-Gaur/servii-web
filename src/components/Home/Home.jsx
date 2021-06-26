@@ -12,6 +12,7 @@ import share from "../../assets/images/HomeScreenImg/share.svg";
 import location from "../../assets/images/HomeScreenImg/location.png";
 import image1 from "../../assets/images/HomeScreenImg/image1.png";
 import image2 from "../../assets/images/HomeScreenImg/image2.png";
+import "./styles.scss";
 
 const Home = () => {
   const [activeCarousel, setActiveCarousel] = React.useState(
@@ -23,11 +24,11 @@ const Home = () => {
     setActiveCarousel(value);
   };
   return (
-    <div className="home-container" style={{ marginTop: '9rem' }}>
+    <div className="home-container" style={{ marginTop: "9rem" }}>
       {/* Intro with carousel */}
       <div className="row section">
         <div className="col-md-6">
-          <h1>
+          <h1 className="header1">
             You Own The <b>Vehicle</b>,
             <br />
             We Own Its <b>Life</b>
@@ -40,15 +41,17 @@ const Home = () => {
             Need <span className="green-color">{activeCarousel}</span>
             <br /> for your community?
           </h4>
-          <button className="btn btn-dark">
-            <a href="#form-section">Schedule a demo</a>
-          </button>
-          <button className="ml-3 btn btn-outline-dark">
-            <a href="#form-section">Refer your society</a>
-          </button>
+          <div className="btnWrapper">
+            <button className="btn btn-dark">
+              <a href="#form-section">Schedule a demo</a>
+            </button>
+            <button className="btn btn-outline-dark">
+              <a href="#form-section">Refer your society</a>
+            </button>
+          </div>
         </div>
 
-        <div className="col-md-6 order-1 pr-md-0 pr-2 pl-5">
+        <div className="col-md-6 order-1 pr-md-0 pr-2 pl-5 myCarousel">
           {/* carousel */}
           <Carousel updateActiveCarousel={updateActiveCarousel} />
         </div>
@@ -85,7 +88,7 @@ const Home = () => {
             </div>
             <div className="media-body">
               <p className="mt-0 label-text">5000+</p>
-              <p className="label-text1">Vehicle Sanitisation/Month</p>
+              <p className="label-text1">Vehicle Sanitisation per Month</p>
             </div>
           </div>
 
@@ -124,19 +127,17 @@ const Home = () => {
 
       {/* Our Recognisation */}
       <div className="section">
-        <div className="header green-background">Our Recognisation</div>
+        <div className="header green-background">Our Recognization</div>
         <div className="row justify-content-around">
           <div className="col-md-5 text-center">
             <img className="recognisation-img-1" src={image1} alt="service" />
-            <button className="btn btn-light btn-lg btn-block">
+            <div className="sectionData">
               Govt. of India under Start up India Programme
-            </button>
+            </div>
           </div>
           <div className="col-md-5 order-1 text-center">
             <img className="recognisation-img-2" src={image2} alt="service" />
-            <button className="btn btn-light btn-lg btn-block">
-              Member of TIE Mumbai
-            </button>
+            <div className="sectionData">Member of TIE Mumbai</div>
           </div>
         </div>
       </div>
@@ -155,7 +156,9 @@ const Home = () => {
           <div className="col-md-6 pt-5">
             {/* form */}
             <div className="form-header-container">
-              <h3 className="label-text1">{isReferForm ? "Refer Society" : "Schedule a demo"}</h3>
+              <h3 className="label-text1">
+                {isReferForm ? "Refer Society" : "Schedule a demo"}
+              </h3>
               <p
                 className="text-right"
                 style={{ cursor: "pointer" }}

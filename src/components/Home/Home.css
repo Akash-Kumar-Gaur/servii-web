@@ -13,11 +13,11 @@
 .home-container .section:nth-child(6) {
   margin: 115px 0;
 }
-.home-container .section:nth-child(1) h1 {
+/* .home-container .section:nth-child(1) h1 {
   font-size: 44px;
   line-height: 57px;
   margin-top: 8%;
-}
+} */
 .home-container .section:nth-child(1) p {
   font-size: 16px;
   line-height: 19px;
