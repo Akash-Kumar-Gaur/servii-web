@@ -7,6 +7,7 @@ import RoadSide from "../../assets/images/OurServicesImg/RoadSide.svg";
 import VehicleWash from "../../assets/images/OurServicesImg/VehicleWash.svg";
 import VehicleAcc from "../../assets/images/OurServicesImg/VehicleAcc.svg";
 import phone_24px from "../../assets/images/ContactUsImg/phone_24px.svg";
+import "../Home/styles.scss";
 
 import "./Services.css";
 

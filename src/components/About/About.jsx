@@ -6,6 +6,7 @@ import Vishal from "../../assets/images/teamsProfile/vishal.svg";
 import Frame from "../../assets/images/Frame.svg";
 import Vector from "../../assets/images/Vector.svg";
 import Vision from "../../assets/images/Vision.svg";
+import "../Home/styles.scss";
 
 const About = () => {
   return (

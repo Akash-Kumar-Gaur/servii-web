@@ -118,8 +118,25 @@
         border-left: solid 1px white !important;
       }
     }
-    .footer-icons {
-      width: 80% !important;
+  }
+  .footer-icons {
+    width: 80% !important;
+  }
+
+  .vision-card {
+    padding: 40px 10px;
+  }
+
+  .service-card {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .services-header-container {
+    flex-direction: column !important;
+    .contact-details {
+      display: flex !important;
+      flex-direction: column !important;
     }
   }
 }

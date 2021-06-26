@@ -15,7 +15,7 @@
   position: fixed;
   top: 0;
 }
-.change-nav{
+.change-nav {
   background-color: black;
   height: 80px;
   display: flex;
@@ -26,20 +26,20 @@
   top: 0;
   z-index: 20;
 }
-.nav-header{
- right: 0;
+.nav-header {
+  right: 0;
   left: 0;
   position: fixed;
   top: 0;
 }
-.change-nav-item{
+.change-nav-item {
   padding: 0 20px 0 20px;
   display: inline;
 }
-.change-nav-item .active{
+.change-nav-item .active {
   color: white;
   font-weight: bold;
-  border-bottom: 4px solid #0a991d; 
+  border-bottom: 4px solid #0a991d;
 }
 .nav-container {
   display: flex;
@@ -66,7 +66,7 @@
   text-align: center;
   margin-right: 2rem;
 }
-.change-nav-link{
+.change-nav-link {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -94,8 +94,8 @@
   padding: 0 20px 0 20px;
   display: inline;
 }
-.change-nav-item:after{
-   color: none;
+.change-nav-item:after {
+  color: none;
   content: "";
   display: block;
   height: 3px;
@@ -112,7 +112,7 @@
   background: transparent;
   transition: width 0.7s ease, background-color 0.5s ease;
 }
-.change-nav-item:hover:after{
+.change-nav-item:hover:after {
   width: 100%;
   color: none;
 }
@@ -131,8 +131,7 @@
 a,
 a.change-nav-link:hover,
 a.change-nav-link:focus,
-a.change-nav-link:active
-{    
+a.change-nav-link:active {
   color: white;
 }
 @media screen and (max-width: 960px) {
@@ -148,6 +147,7 @@ a.change-nav-link:active
     transition: all 0.5s ease;
   }
   .nav-menu.active {
+    padding: 0;
     background-color: black;
     color: white;
     border-bottom: 3px solid transparent;
@@ -182,6 +182,5 @@ a.change-nav-link:active
   }
 }
 .servi-logo {
-      width: 13%;
-
+  width: 13%;
 }

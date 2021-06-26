@@ -15,8 +15,8 @@
   font-family: Rubik;
   line-height: 28.44px;
 }
-.frame{
-   margin: 48px 10px;
+.frame {
+  margin: 48px 10px;
 }
 .vision-text {
   font-weight: 400;
@@ -25,7 +25,7 @@
   line-height: 32px;
 }
 .team-card {
-  width: 300px;
+  max-width: 300px;
   height: 420px;
   border-radius: 12px;
   padding: 32px;
